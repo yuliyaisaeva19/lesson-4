@@ -1,11 +1,16 @@
 package ru.const24;
 
+import java.text.DateFormat;
+import java.text.Format;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         //составляем список продуктов
         List<Product> productList = new ArrayList<>();
 
@@ -33,8 +38,16 @@ public class Main {
         //27.09 RUB 1 = 0.01492 USD = 0.01276 EUR
 
         //
-        CurrencyConverter today = new CurrencyConverter(1,65.7585, 1.1705);
+        Readfile readFile = new Readfile();
+        readFile.read("C:\\Users\\Yuliya\\Desktop\\2018-09-27.txt");
+        CurrencyConverter today = new CurrencyConverter(readFile.getUnitUSD(),readFile.getUnitRUB(), readFile.getUnitEUR());
         CurrencyConverter twenty = new CurrencyConverter(1,67.0098,1.1767);
+
+
+        String str = "11-10-2018";
+        DateFormat format = new SimpleDateFormat("MM-dd-yyyy");
+        Date data = format.parse(str);
+        System.out.println(data);
 
         double todayCost =  calculateCosts(productList, Currency.RUB, today);
         double twentyCost =  calculateCosts(productList, Currency.RUB, twenty);

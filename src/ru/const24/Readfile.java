@@ -6,12 +6,14 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Readfile {
-    public static void main(String[] args) {
-        File file = new File("C:\\Users\\Yuliya\\Desktop\\2018-09-27.txt");
+
+    private double unitUSD;
+    private double unitRUB;
+    private double unitEUR;
+
+    public void read(String path) {
+        File file = new File(path);
         Scanner sc = null;
-
-
-
 
         try {
 
@@ -21,9 +23,9 @@ public class Readfile {
                 String line = sc.nextLine().trim();
                 //.trim() осуществляет обрезание пробелов
                 String[] arraylist = line.split(",");
-                String unitUSD = arraylist[0];
-                String unitRUB = arraylist[1];
-                String unitEUR = arraylist[2];
+                this.unitUSD = Double.parseDouble(arraylist[0].trim());
+                this.unitRUB = Double.parseDouble(arraylist[1].trim());
+                this.unitEUR = Double.parseDouble(arraylist[2].trim());
                 System.out.println(Arrays.toString(arraylist)); //печать строки в стандартный вывод
                 System.out.println(unitRUB);
             }
@@ -37,5 +39,17 @@ public class Readfile {
             sc.close();
         }
 
+    }
+
+    public double getUnitUSD() {
+        return unitUSD;
+    }
+
+    public double getUnitRUB() {
+        return unitRUB;
+    }
+
+    public double getUnitEUR() {
+        return unitEUR;
     }
 }

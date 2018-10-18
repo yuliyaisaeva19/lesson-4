@@ -11,12 +11,13 @@ public class bracket {
             if (count < 0) //каждый раз проверяем счетчик на неотрицательность, это помогает отлавливать неверную посл-ть
             {return false;}
         }
-        return true;
+        if (count == 0){return true;}
+        return false;
     }
 
     public static void main(String[] args)
     {
-        String var = ")()(";
+        String var = "()(()";
         System.out.println(iscorrectbracket(var));
     }
 }
