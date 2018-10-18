@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd0bbbb-b9c0-4fd2-b2af-92c57cc539ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bracket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/const24/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/const24/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/const24/Readfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/const24/Readfile.java" afterDir="false" />
-    </list>
+    <list default="true" id="edd0bbbb-b9c0-4fd2-b2af-92c57cc539ee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +34,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1090" />
+          <entry key="java" value="1094" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1090" />
+          <entry key="JAVA" value="1094" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -65,20 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/const24/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/const24/CurrencyConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="43" />
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -151,15 +147,15 @@
         <option value="$PROJECT_DIR$/src/CurrencyConverter.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/const24/Money.java" />
-        <option value="$PROJECT_DIR$/src/ru/const24/CurrencyConverter.java" />
         <option value="$PROJECT_DIR$/src/bracket.java" />
         <option value="$PROJECT_DIR$/src/ru/const24/Readfile.java" />
         <option value="$PROJECT_DIR$/src/ru/const24/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/const24/Connection.java" />
+        <option value="$PROJECT_DIR$/src/ru/const24/CurrencyConverter.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -360,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/const24/CurrencyConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/const24/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
@@ -379,8 +368,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/const24/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/const24/CurrencyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
